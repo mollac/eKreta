@@ -1,0 +1,18 @@
+{
+  "kreta":{
+    "1. gyerek":[
+      "https://klik.....e-kreta.hu",
+      "azonosító",
+      "jelszó"
+    ],
+    "2. gyerek":[
+      "https:/....e-kreta.hu",
+      "azonosító",
+      "jelszó"
+    ]
+  },
+  "gmail":{
+    "user":"küldő email cím",
+    "password":"smtp jelszó"
+  }
+}
