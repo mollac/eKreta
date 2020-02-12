@@ -1,7 +1,7 @@
 # eKreta
 Új jegyek és mulasztások a eKréta naplóból
 
-** Értelemszerűen ki kell tölteni a data.json file-t.
+## Értelemszerűen ki kell tölteni a data.json file-t. ##
 
 ```
 {
@@ -23,11 +23,11 @@
   }
 }
 ```
-* A kreta.py programban beállítani az smtp szerver címét és portját!
+## A kreta.py programban beállítani az smtp szerver címét és portját! ##
 ```
 with smtplib.SMTP(host='smtp szerver címe => port szám', port=587) as s:
 ```
-* A címzetteket beállítani a kreta.py-ban.
+## A címzetteket beállítani a kreta.py-ban. ##
 ```
 email = EmailMessage()
 email['from'] = email_user
