@@ -1,6 +1,6 @@
 # eKreta
-Új jegyek és mulasztások a eKréta naplóból
-
+Új jegyek és mulasztások a eKréta naplóból és azok küldése email-ben. :)
+ 
 ## Értelemszerűen ki kell tölteni a data.json file-t. ##
 
 ```
