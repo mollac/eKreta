@@ -25,7 +25,7 @@
 ```
 ## A kreta.py programban beállítani az smtp szerver címét és portját! ##
 ```
-with smtplib.SMTP(host='smtp szerver címe => port szám', port=587) as s:
+with smtplib.SMTP(host='SMTP SERVER', port=PORT) as s:
 ```
 ## A címzetteket beállítani a kreta.py-ban. ##
 ```
