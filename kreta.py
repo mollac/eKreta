@@ -52,7 +52,11 @@ for k, v in urls.items():
     email_data += f'<h3>HIÁNYZÁSOK</h3>'
     for mulasztas in mulasztasok:
         m = mulasztas.text.split('\n')
-        email_data += f'<code>{m[0]}, {m[3]} -> {m[4]}</code><br/>'
+        try:
+            email_data += f'<code>{m[0]}, {m[3]} -> {m[4]}</code><br/>'
+        except:
+            email_data += f'<code>{m[0]}</code><br/>'
+
     tabla = wd.find_element_by_id('legutobbiFeljegyzesek')
     uzenet = tabla.find_elements_by_class_name('k-link')
     if not 'Nincsenek' in uzenet[0].text:
